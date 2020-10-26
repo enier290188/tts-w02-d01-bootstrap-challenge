@@ -102,3 +102,32 @@
 #body-footer .container {
     margin-top: 150px;
 }
+
+#body-question {
+    position: fixed;
+    right: 20px;
+    bottom: 120px;
+    width: 250px;
+    z-index: 2000;
+    box-shadow: 2px 2px 4px #808080;
+}
+
+#body-question #body-question-image {
+    position: fixed;
+    right: 120px;
+    bottom: 180px;
+    z-index: 2001;
+}
+
+#body-question .body-question-x {
+    cursor: pointer;
+}
+
+#body-chat {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 2000;
+    background-image: linear-gradient(-225deg, rgb(255, 195, 113) 20%, rgb(255, 95, 109) 100%);
+    box-shadow: 2px 2px 4px #808080;
+}
