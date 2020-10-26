@@ -3,13 +3,102 @@
 }
 
 #body-container-1 {
-    min-height: 730px;
+    min-height: 600px;
     background-size: cover !important;
     background: url("../img/body-container-1-background.svg") center top no-repeat;
+}
+
+#body-container-2 {
+    position: absolute;
+    top: 680px;
+    z-index: 1000;
+}
+
+#body-container-2 .body-container-2-card {
+    box-shadow: 2px 2px 4px #808080;
+}
+
+#body-container-2 .body-container-2-card .body-container-2-card-text-2 {
+    min-height: 150px;
+}
+
+#body-container-3 {
+    min-height: 1000px;
+    background: radial-gradient(circle at right top, rgb(51, 51, 255) 0%, rgb(51, 51, 255) 66%, rgb(8, 209, 255) 100%);
+}
+
+#body-container-3 #body-container-3-watermark {
+    min-height: 1000px;
+    background-size: auto !important;
+    background: url('../img/watermark.svg') right 100px no-repeat;
+}
+
+#body-container-3 #body-container-3-text-1 {
+    margin-top: 400px;
+    margin-bottom: 50px;
+}
+
+#body-container-3 #body-container-3-text-1 p.text-1 {
+    font-size: 52px;
+}
+
+#body-container-3 #body-container-3-text-2 {
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+#body-container-3 #body-container-3-text-2 p.text-2 {
+    font-size: 40px;
+}
+
+#body-container-3 .body-container-3-carousel {
+    border-width: 3px !important;
+}
+
+#body-container-3 .body-container-3-carousel.body-container-3-carousel-opacity {
+    opacity: 0.3;
+}
+
+#body-container-3 .body-container-3-carousel .body-container-3-carousel-text-1 {
+    min-height: 200px;
+}
+
+#body-container-3 #body-container-3-carousel-image-arrow-left {
+    position: absolute;
+    top: 150px;
+    left: 80px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+#body-container-3 #body-container-3-carousel-image-arrow-right {
+    position: absolute;
+    top: 150px;
+    right: 80px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+#body-container-3 #body-container-3-carousel-image-arrow-right img {
+    transform: rotate(180deg);
+}
+
+#body-container-4 {
+    position: absolute;
+    top: 2080px;
+    z-index: 1000;
+}
+
+#body-container-4 #body-container-4-form {
+    background: #032459;
 }
 
 #body-footer {
     min-height: 400px;
     background-size: auto !important;
     background: url("../img/body-footer-background.webp") 100% 100% no-repeat;
+}
+
+#body-footer .container {
+    margin-top: 150px;
 }
