@@ -1,4 +1,15 @@
+#body-pre-header {
+    border-bottom: 1px solid rgba(3, 36, 89, 0.5);
+}
+
+#body-container-1 {
+    min-height: 730px;
+    background-size: cover !important;
+    background: url("../img/body-container-1-background.svg") center top no-repeat;
+}
+
 #body-footer {
     min-height: 400px;
-    background: url("../img/footer.webp") 100% 100% no-repeat;
+    background-size: auto !important;
+    background: url("../img/body-footer-background.webp") 100% 100% no-repeat;
 }
